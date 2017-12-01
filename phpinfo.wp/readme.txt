@@ -1,6 +1,5 @@
 === PHP Info ===
 Contributors: pbimal
-Plugin URI: https://bimal.org.np/
 Tags: phpinfo
 Requires at least: 4.0.0
 Tested up to: 4.9.1

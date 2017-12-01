@@ -13,9 +13,7 @@ class PHPInfoer
 		$info = preg_replace("/^.*?\<body\>/is", "", $info);
 		$info = preg_replace("/<\/body\>.*?$/is", "", $info);
 		
-		//$info = preg_replace("/\<body\>(.*?)\</body\>", "$1", $info);
 		echo '<style type="text/css">', file_get_contents(dirname(__FILE__)."/phpinfo.css"), '</style>';
-
 		echo file_get_contents(dirname(__FILE__)."/header.html");
 		echo $info;
 		echo file_get_contents(dirname(__FILE__)."/footer.html");

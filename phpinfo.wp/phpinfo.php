@@ -1,11 +1,10 @@
 <?php
 /**
  * Plugin Name: PHP Info (WP)
- * Plugin URI: #
  * Description: View PHP Info inside your WordPress. Look for <strong>PHP Info (WP)</strong> in admin menus.
  * Version: 1.0.0
  * Author: Bimal Poudel
- * Author URI: #
+ * Author URI: https://bimal.org.np/
  */
 
 require_once("class.PHPInfoer.inc.php");
