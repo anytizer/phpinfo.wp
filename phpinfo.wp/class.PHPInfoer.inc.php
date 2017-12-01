@@ -12,14 +12,17 @@ class PHPInfoer
 		 */
 		$info = preg_replace("/^.*?\<body\>/is", "", $info);
 		$info = preg_replace("/<\/body\>.*?$/is", "", $info);
+		
+		//$info = preg_replace("/\<body\>(.*?)\</body\>", "$1", $info);
+		echo '<style type="text/css">', file_get_contents(dirname(__FILE__)."/phpinfo.css"), '</style>';
 
-		readfile(dirname(__FILE__)."/header.html");
+		echo file_get_contents(dirname(__FILE__)."/header.html");
 		echo $info;
-		readfile(dirname(__FILE__)."/footer.html");
+		echo file_get_contents(dirname(__FILE__)."/footer.html");
 	}
 	
 	public function admin_menus()
 	{
-		add_menu_page("PHP Info", "PHP Info", "manage_options", "PHPInfoer", array($this, "info"), "dashicons-welcome-widgets-menus", 70);
+		add_menu_page("PHP Info", "PHP Info (WP)", "manage_options", "PHPInfoer", array($this, "info"), "dashicons-welcome-widgets-menus", 70);
 	}
 }
