@@ -1,0 +1,90 @@
+/**
+ * CSS taken from phpinfo() output
+ *  - and converted to .scss
+ *  - and trimmed
+ */
+.center {
+  margin-top: 20px;
+
+  table {
+    border: 0;
+    width: 934px;
+    text-align: left;
+    border-collapse: collapse;
+    box-shadow: 1px 2px 3px #ccc;
+  }
+
+  th {
+    text-align: center !important;
+  }
+  
+  td, th {
+    font-size: 75%;
+    padding: 4px 5px;
+    border: 1px solid #666;
+    vertical-align: baseline;
+  }
+
+  pre {
+    margin: 0;
+    font-family: monospace;
+  }
+
+  a {
+    &:link {
+      color: #009;
+      text-decoration: none;
+      background-color: #fff;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-size: 150%;
+	text-trasform: uppercase;
+  }
+  
+  h2 {
+    font-size: 125%;
+	text-trasform: uppercase;
+  }
+  
+  .p {
+    text-align: left;
+  }
+  
+  .e {
+    background-color: #ccf;
+    font-weight: bold;
+    width: 300px;
+  }
+  
+  .h {
+    background-color: #99c;
+    font-weight: bold;
+  }
+  
+  .v {
+    word-wrap: break-word;
+    background-color: #ddd;
+    max-width: 300px;
+    overflow-x: auto;
+    i {
+      color: #999;
+    }
+  }
+  
+  img {
+    float: right;
+    border: 0;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    width: 934px;
+    background-color: #ccc;
+  }
+}
