@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: PHP Info (WP)
- * Description: View phpinfo() inside your WordPress. Look for <strong>PHP Info (WP)</strong> link in admin menus.
+ * Description: View phpinfo() inside your WordPress. Once installed, look for <strong>PHP Info (WP)</strong> link in admin menus.
  * Version: 1.0.0
  * Author: Bimal Poudel
  * Author URI: https://bimal.org.np/
