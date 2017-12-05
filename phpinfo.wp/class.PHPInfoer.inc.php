@@ -1,4 +1,6 @@
 <?php
+if(!defined("ABSPATH")) exit;
+
 class PHPInfoer
 {
 	public function info()
@@ -12,8 +14,7 @@ class PHPInfoer
 		 */
 		$info = preg_replace("/^.*?\<body\>/is", "", $info);
 		$info = preg_replace("/<\/body\>.*?$/is", "", $info);
-		
-		echo '<style type="text/css">', file_get_contents(dirname(__FILE__)."/phpinfo.css"), '</style>';
+
 		echo file_get_contents(dirname(__FILE__)."/header.html");
 		echo $info;
 		echo file_get_contents(dirname(__FILE__)."/footer.html");
