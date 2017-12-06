@@ -24,4 +24,21 @@ class PHPInfoer
 	{
 		add_menu_page("PHP Info", "PHP Info (WP)", "manage_options", "PHPInfoer", array($this, "info"), "dashicons-welcome-widgets-menus", 70);
 	}
+
+	/**
+	 * Add project source code link
+	 */
+	public function row_meta($links=array(), $file="")
+	{
+		if(strpos($file, "phpinfo.wp/phpinfo.php")!==false)
+		{
+			$new_links = array(
+				"github" => '<a href="https://github.com/anytizer/phpinfo.wp" target="_blank">Project Source</a>',
+			);
+			
+			$links = array_merge($links, $new_links);
+		}
+		
+		return $links;
+	}
 }
