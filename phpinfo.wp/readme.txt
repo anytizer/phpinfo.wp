@@ -39,7 +39,7 @@ See screenshot #1.
 
 == Donations ==
 
-Just understand my [simple efforts](https://bimal.org.np/) for now.
+Just understand my [simple efforts](http://bimal.org.np/) for now.
 
 
 == Change Log ==
