@@ -24,6 +24,11 @@ class PHPInfoer
 	{
 		add_menu_page("PHP Info", "PHP Info (WP)", "manage_options", "PHPInfoer", array($this, "info"), "dashicons-welcome-widgets-menus", 70);
 	}
+	
+	public function enqueue()
+	{
+		wp_enqueue_style("phpinfo.wp", plugins_url("/phpinfo.wp/phpinfo.css"), array(), false, "all");
+	}
 
 	/**
 	 * Add project source code link
