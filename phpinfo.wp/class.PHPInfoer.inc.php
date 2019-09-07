@@ -32,7 +32,11 @@ class PHPInfoer
 
 	/**
 	 * Add project source code link
-	 */
+	 *
+     * @param array $links
+     * @param string $file
+     * @return array
+     */
 	public function row_meta($links=array(), $file="")
 	{
 		if(strpos($file, "phpinfo.wp/phpinfo.php")!==false)

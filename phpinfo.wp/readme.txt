@@ -3,7 +3,7 @@ Contributors: pbimal
 Tags: phpinfo
 Requires PHP: 7.0.0
 Requires at least: 4.0.0
-Tested up to: 4.9.1
+Tested up to: 5.2.2
 Stable tag: 1.0.0
 Donate Link: http://bimal.org.np/
 

@@ -1,0 +1,81 @@
+/**
+ * CSS taken from phpinfo() output
+ *  - and converted to .scss
+ *  - and trimmed
+ */
+.center {
+  pre {
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  a {
+    &:link {
+      color: #009;
+      text-decoration: none;
+      background-color: #fff;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 0;
+    width: 934px;
+    box-shadow: 1px 2px 3px #ccc;
+    text-align: left;
+	margin: 10px;
+    th {
+      text-align: center !important;
+    }
+    td, th {
+      border: 1px solid #666;
+      font-size: 75%;
+      vertical-align: baseline;
+      padding: 5px 5px;
+    }
+  }
+
+  h1, h2 {
+	text-transform: uppercase;
+  }
+  
+  .p {
+    text-align: left;
+  }
+
+  .e {
+    background-color: #ccf;
+    width: 300px;
+    font-weight: bold;
+  }
+  
+  .h {
+    background-color: #99c;
+    font-weight: bold;
+  }
+  
+  .v {
+    background-color: #ddd;
+    max-width: 300px;
+    overflow-x: auto;
+    word-wrap: break-word;
+    i {
+      color: #999;
+    }
+  }
+  
+  img {
+    float: right;
+    border: 0;
+  }
+  
+  hr {
+    width: 934px;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+  }
+}

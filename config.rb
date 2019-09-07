@@ -1,7 +1,7 @@
 require "compass/import-once/activate"
 http_path = "/"
 css_dir = "phpinfo.wp/"
-sass_dir = "./"
+sass_dir = "./scss"
 images_dir = "images"
 javascripts_dir = "javascripts"
 output_style = :compressed
