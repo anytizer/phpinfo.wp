@@ -2,11 +2,11 @@
 /**
  * Plugin Name: PHP Info (WP)
  * Description: View phpinfo() inside your WordPress. Once installed, look for <strong>PHP Info (WP)</strong> link in admin menus.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Bimal Poudel
  * Author URI: https://bimal.org.np/
  */
-if(!defined("ABSPATH")) exit;
+if (!defined("ABSPATH")) exit;
 
 require_once("class.PHPInfoer.inc.php");
 $PHPInfoer = new PHPInfoer();
