@@ -6,7 +6,7 @@
  * Author: Bimal Poudel
  * Author URI: https://bimal.org.np/
  */
-if(!defined("ABSPATH")) exit;
+if (!defined("ABSPATH")) exit;
 
 require_once("class.PHPInfoer.inc.php");
 $PHPInfoer = new PHPInfoer();
