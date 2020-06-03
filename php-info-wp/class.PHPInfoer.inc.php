@@ -34,8 +34,7 @@ class PHPInfoer
 
     public function enqueue()
     {
-        //wp_enqueue_style("php-info-wp", plugins_url("php-info-wp/phpinfo.css"), array(), false, "all");
-        wp_enqueue_style("php-info-wp", "https://raw.githubusercontent.com/anytizer/phpinfo.wp/master/phpinfo.wp/phpinfo.css", array(), false, "all");
+        wp_enqueue_style("php-info-wp", plugins_url("php-info-wp/phpinfo.css"), array(), false, "all");
     }
 
     /**
