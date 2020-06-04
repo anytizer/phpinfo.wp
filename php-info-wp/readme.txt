@@ -4,7 +4,7 @@ Tags: phpinfo
 Requires PHP: 7.0.0
 Requires at least: 4.0.0
 Tested up to: 5.4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Donate Link: http://bimal.org.np/
 
 
@@ -43,6 +43,9 @@ Just understand my [simple efforts](http://bimal.org.np/) for now.
 
 
 == Change Log ==
+
+1.0.2
+Old style css.
 
 1.0.0
 First release to the public.
