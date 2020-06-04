@@ -19,7 +19,7 @@ class PHPInfoer
         echo file_get_contents($root . "/header.html");
         
         /**
-         * @todo WP Enque Style not working
+         * @todo WP Enqueue Style not working
          */
         echo "<style>", file_get_contents($root . "/phpinfo.css"), "</style>";
         
@@ -46,7 +46,7 @@ class PHPInfoer
      */
     public function row_meta($links = array(), $file = "")
     {
-        if (strpos($file, "phpinfo.wp/phpinfo.php") !== false) {
+        if (strpos($file, "php-info-wp/phpinfo.php") !== false) {
             $new_links = array(
                 "github" => '<a href="https://github.com/anytizer/phpinfo.wp" target="_blank">Project Source</a>',
             );
